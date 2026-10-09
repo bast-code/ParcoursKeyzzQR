@@ -1,4 +1,4 @@
-# Prototype cliquable PRESSIAT
+# Prototype cliquable KEYZz × PRESSIAT
 
 Prototype statique autonome du parcours KEYZz PRESSIAT.
 
@@ -7,15 +7,13 @@ Prototype statique autonome du parcours KEYZz PRESSIAT.
 1. Double-cliquer sur `Lancer prototype.command`.
 2. Si macOS bloque le fichier : clic droit → **Ouvrir** → confirmer.
 
-## Parcours
+## Interactions disponibles
 
-Landing → Connexion → Code → Nom → Paiement → Traitement → Révélation → Partage.
-
-La barre inférieure permet également de tester les branches suivantes :
-
-- salle d’attente ;
-- paiement refusé ;
-- édition épuisée.
+- Les trois cartes de contenu ouvrent leurs fenêtres de détail.
+- `En savoir plus sur KEYZz` ouvre l’overlay générique de présentation.
+- Les boutons de fermeture reviennent à la Landing.
+- Parcours principal : Landing → Connexion → Code → Nom → Paiement → Traitement → Révélation → Partage.
+- La barre inférieure permet de changer d’écran et de tester les branches : salle d’attente, paiement refusé et édition épuisée.
 
 ## Déployer sur Vercel
 
@@ -34,4 +32,4 @@ Dans le dépôt GitHub : **Settings → Pages → Deploy from a branch**, puis s
 
 ## Ressources
 
-Les images sont intégrées directement dans `index.html`. Aucun dossier d’assets ni installation npm n’est nécessaire. Les polices Google disposent de polices système de secours si le réseau les bloque.
+Toutes les images, y compris le logo et les portraits, sont intégrées directement dans `index.html`. Aucun dossier d’assets ni installation npm n’est nécessaire.
